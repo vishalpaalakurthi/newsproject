@@ -10,7 +10,6 @@ newsfeed= function(){
 $( document ).ready(function() {   
     init();
 
-
     $("#home").on("click", function(){
         newsfeed();
     });
@@ -22,6 +21,7 @@ $( document ).ready(function() {
     $("#gallery").on("click", function(){
         $('#mainbody').load("templates/gallery.html");
     });
+    
 });
 
   
